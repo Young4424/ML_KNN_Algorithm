@@ -35,8 +35,7 @@ class KNN:
 
         # 거리 순으로 오름차순 정렬, lambda를 통해 각 튜플 'x'의 두번째 요소 반환
         distances.sort(key=lambda x : x[1])
-        
-
+        sort.keys
 
 
     # 주어진 이웃에 대해 가장 일반적인 클래스 레이블을 찾아서 반환한다.
