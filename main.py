@@ -35,7 +35,7 @@ def main():
     knn = KNN(k=3)
     knn.fit(train_data, train_labels)
     class_names = iris['target_names']
-    knn.predict(test_data, test_labels, class_names)  # Passing true labels for comparison
+    knn.predict(test_data, test_labels, class_names)  
 
 if __name__ == "__main__":
     main()
